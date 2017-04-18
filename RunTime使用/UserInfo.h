@@ -1,0 +1,22 @@
+//
+//  UserInfo.h
+//  RunTime使用
+//
+//  Created by LT-MacbookPro on 17/4/18.
+//  Copyright © 2017年 XFX. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface UserInfo : NSObject<NSCoding>
+
+@property(nonatomic,copy) NSString * name;
+
+@property(nonatomic,assign) int age;
+
+@property(nonatomic,copy) NSString * paseword;
+
+@property(nonatomic,copy) NSString * iPhoneNum;
+
+
+@end
